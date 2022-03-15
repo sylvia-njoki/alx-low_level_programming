@@ -1,5 +1,6 @@
-#include "main.h"
-#include <studio.h>
+#include <stdio.h>
+#include <limits.h>
+#include "main.h" 
 
 /**
  * _abs - Computes the absolute value
