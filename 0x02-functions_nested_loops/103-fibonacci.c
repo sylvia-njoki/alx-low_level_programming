@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-	long int num1, num2, a, b;
+	long int n1, n2, fn, afn;
 
-	num1 = 1;
-	num2 = 2;
-	a = b = 0;
-	while (a <= 4000000)
+	n1 = 1;
+	n2 = 2;
+	fn = afn = 0;
+	while (fn <= 4000000)
 	{
-		a = num1 + num2;
-		num1 = num2;
-		num2 = a;
-		if ((num1 % 2) == 0)
+		fn = n1 + n2;
+		n1 = n2;
+		n2 = fn;
+		if ((n1 % 2) == 0)
 		{
-			b += n1;
+			afn += n1;
 		}
 	}
-	printf("%ld\n", b);
+	printf("%ld\n", afn);
 	return (0);
 }

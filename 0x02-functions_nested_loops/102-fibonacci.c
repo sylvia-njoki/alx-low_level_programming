@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	int a;
-	long int num1, num2, b;
+	int c;
+	long int n1, n2, fn;
 
-	num1 = 1;
-	num2 = 2;
+	n1 = 1;
+	n2 = 2;
 	printf("%ld, %ld", n1, n2);
-	for (a = 0; a < 48; a++)
+	for (c = 0; c < 48; c++)
 	{
-		b = num1 + num2;
-		printf(", %ld", b);
-		num1 = num2;
-		num2 = b;
+		fn = n1 + n2;
+		printf(", %ld", fn);
+		n1 = n2;
+		n2 = fn;
 	}
 	printf("\n");
 	return (0);
